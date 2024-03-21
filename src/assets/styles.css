@@ -1,1 +1,143 @@
 /* you can put styles in here :) */
+/* your styles will go here!! */
+
+footer{
+    background-color: #D8392F;
+    font-family: "Raleway", sans-serif;
+    color: #FFE9D9;
+    margin: 0%;
+    padding-bottom: 5px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    color: #FFE9D9;
+    font-family: "Elsie", serif;
+    text-transform: none;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 155px;
+    padding: 0%;
+    margin-bottom: 1.5%;
+    margin-top: 200px;
+    letter-spacing: -5px;
+}
+.red-font{
+    color: #D8392F;
+}
+
+h2{
+    color: #FFE9D9;
+    font-family: "Elsie", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75px;
+    text-transform: none;
+    letter-spacing: -2px;
+}
+
+body{
+    color: #FFE9D9;
+    font-family: "Raleway", sans-serif;
+    background-color: #D8392F;
+    text-transform: uppercase;
+    margin: 0%;
+    text-align: center;
+}
+
+#featuredWork{
+    background-color: #FFE9D9;
+    padding: 45px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+.featuredIMG{
+    height: 800px;
+    border: 30px solid #FFE9D9;
+}
+.profile{
+    height: 650px;
+    margin-top: 120px;
+    border-top:#FFE9D9 30px solid;
+    border-bottom:#FFE9D9 110px solid;
+    border-left:#FFE9D9 30px solid;
+    border-right:#FFE9D9 30px solid;
+    box-shadow: 0px 10px 6px 0px rgba(84, 28, 28, 0.35);
+}
+.profile:hover{
+    transform: rotate(8deg);
+  }
+
+p{
+    font-size: 18px;
+    margin-bottom: 200px;
+    margin-top: 0%;
+}
+.insta{
+    padding: 5%;
+}
+.envelope{
+    width:250px;
+    margin:0;
+}
+
+a:link { 
+    text-decoration: none; 
+} 
+a:visited { 
+    text-decoration: none; 
+} 
+a:hover { 
+    text-decoration: none; 
+} 
+a:active { 
+    text-decoration: none; 
+}
+#contact-box{
+    background-color: #FFE9D9;
+    border-top:#FFE9D9 30px solid;
+    border-bottom:#FFE9D9 110px solid;
+    border-left:#FFE9D9 30px solid;
+    border-right:#FFE9D9 30px solid;
+    box-shadow: 0px 10px 6px 0px rgba(84, 28, 28, 0.35);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact-box h2 {
+    margin-bottom: 0;
+}
+
+#Publish1FAIpQLSe9dssDNsiaOXK1BNuvZeFe6xxyCh2tlQw6nSA5-xKSsKoKtg {
+    background: transparent !important;
+}       
+
+a.ff-powered-img img, img.ff-banner-image.ff-image {
+    visibility: hidden;
+    display: none;;
+}
+
+.ff-title {
+    text-transform: uppercase;
+    color: #D8392F !important;
+}
+
+#ff-compose {
+    --ff-paragraph-font:  "Raleway", sans-serif !important;
+    --ff-primary-700: #D8392F;
+    --ff-field-bgcolor: rgb(255 255 255 / 50%);
+    width: 80%;
+    max-width: 642px;
+}
+
+@media (min-width:1080px) {
+    #contact-box {
+        flex-wrap: nowrap;
+    }
+}
