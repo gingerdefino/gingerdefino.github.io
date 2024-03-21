@@ -1,21 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include 'head', title:'My Homepage' %}
+  {% include 'head', title:'Ginger Defino Art & Design' %}
   <body class="home">
     {% include 'header' %}
     <main id="main-content">
-      <h1>Home</h1>
-      <img
-        src="/assets/sample-img.jpg"
-        alt="A pizza"
-        style="max-width: 700px"
-      />
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt quo
-        amet voluptate quis doloremque harum. Omnis esse atque, mollitia
-        consequatur dolore dicta ratione, dignissimos sunt molestias earum
-        obcaecati! Accusantium, ipsam.
-      </p>
+     <div>
+            <h1>Ginger Defino</h1>
+        </div>
+        <p>I'm an artist in the Hudson Valley with a focus in<br> graphic design and fine art.</p>
+
+        <h2>Featured Work</h2>
+
+        <div id="featuredWork">
+            <a href="#">
+                <img class="featuredIMG" alt="" src="/assets/Flag.jpg" />
+            </a>
+            <a href="#">
+                <img class="featuredIMG" alt="" src="/assets/miss lucy's glass mockup.jpg" />
+            </a>
+            <a href="#">
+                <img class="featuredIMG" alt="" src="/assets/Fruit@1x_1.png" />
+            </a>
+            <a href="#">
+                <img class="featuredIMG" alt="" src="/assets/Thrift2fightMockup1.jpg" />
+            </a>
+        </div>
+
+        <a href="#">
+            <img class="profile" alt="" src="/assets/ProfilePic.PNG" />
+            <h2>About Me</h2>
+        </a>
+
     </main>
     {% include 'footer' %}
   </body>
