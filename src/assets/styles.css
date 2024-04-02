@@ -97,6 +97,14 @@ a:hover {
 a:active { 
     text-decoration: none; 
 }
+a {
+    color: #FFE9D9;
+    text-decoration: none;
+}
+work:img {
+    width: 375;
+    height: 300;
+}
 #contact-box{
     background-color: #FFE9D9;
     border-top:#FFE9D9 30px solid;
