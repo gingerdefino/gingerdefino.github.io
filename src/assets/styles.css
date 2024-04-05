@@ -1,5 +1,48 @@
 /* you can put styles in here :) */
-/* your styles will go here!! */
+/* .scallop {
+  position:relative;
+  background: #D8392F;
+  padding:50px;
+}
+ .scallop p{
+  position:relative;
+  text-align:center;
+  color:#FFE9D9;
+  font-size: 35px;
+  text-transform:uppercase;  
+  font-family: 'PT Sans Narrow', sans-serif;
+  line-height: 50px;
+}
+.scallop::after { 
+  position:absolute;
+  bottom: -50px;
+  left: 0px;
+  width: 100%;
+  content:" ";
+  background: 
+  radial-gradient(circle at 50% 0%, #D8392F 25%, #FFE9D9 26%, #FFE9D9 40%);
+  background-color: #FFE9D9;
+  background-size:50px 100px;
+  height:50px;
+  background-repeat: repeat-x;
+}
+.after-scallop{
+  background: #FFE9D9;
+  padding:50px;
+  margin-bottom:50px;
+}
+
+.after-scallop p{
+  color: #D8392F;
+  font-size:25px;
+  text-transform:none;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-align:center;
+  margin-top:30px;
+  font-weight: bold;
+}
+
+ */
 
 footer{
     background-color: #D8392F;
@@ -46,6 +89,11 @@ body{
     text-transform: uppercase;
     margin: 0%;
     text-align: center;
+    font-feature-settings: "kern" on, "liga" on; 
+    -moz-font-feature-settings: "kern" on, "liga" on; 
+    -webkit-font-feature-settings: "kern" on, "liga" on; 
+    -ms-font-feature-settings: "kern" on, "liga" on; 
+    -o-font-feature-settings: "kern" on, "liga" on;
 }
 
 #featuredWork{
