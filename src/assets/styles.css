@@ -1,48 +1,4 @@
 /* you can put styles in here :) */
-/* .scallop {
-  position:relative;
-  background: #D8392F;
-  padding:50px;
-}
- .scallop p{
-  position:relative;
-  text-align:center;
-  color:#FFE9D9;
-  font-size: 35px;
-  text-transform:uppercase;  
-  font-family: 'PT Sans Narrow', sans-serif;
-  line-height: 50px;
-}
-.scallop::after { 
-  position:absolute;
-  bottom: -50px;
-  left: 0px;
-  width: 100%;
-  content:" ";
-  background: 
-  radial-gradient(circle at 50% 0%, #D8392F 25%, #FFE9D9 26%, #FFE9D9 40%);
-  background-color: #FFE9D9;
-  background-size:50px 100px;
-  height:50px;
-  background-repeat: repeat-x;
-}
-.after-scallop{
-  background: #FFE9D9;
-  padding:50px;
-  margin-bottom:50px;
-}
-
-.after-scallop p{
-  color: #D8392F;
-  font-size:25px;
-  text-transform:none;
-  font-family: 'PT Sans Narrow', sans-serif;
-  text-align:center;
-  margin-top:30px;
-  font-weight: bold;
-}
-
- */
 
 footer{
     background-color: #D8392F;
@@ -65,12 +21,29 @@ h1{
     font-size: 155px;
     padding: 0%;
     margin-bottom: 1.5%;
-    margin-top: 200px;
+    margin-top: 300px;
     letter-spacing: -5px;
 }
 .red-font{
     color: #D8392F;
 }
+.scallop::after { 
+    position:absolute;
+    bottom: -50px;
+    left: 0px;
+    width: 100%;
+    content:" ";
+    background: 
+    radial-gradient(circle at 50% 0%, #FFE9D9 25%, #d83a2f00 26%, #d83a2f00 40%);
+    background-color:  #d83a2f00;
+    background-size:50px 100px;
+    height:50px;
+    background-repeat: repeat-x;
+  }
+  .after-scallop{
+    background: #D8392F;
+    margin-bottom:50px;
+  }
 
 h2{
     color: #FFE9D9;
@@ -84,6 +57,7 @@ h2{
 
 body{
     color: #FFE9D9;
+    font-size: 18px;
     font-family: "Raleway", sans-serif;
     background-color: #D8392F;
     text-transform: uppercase;
@@ -98,14 +72,14 @@ body{
 
 #featuredWork{
     background-color: #FFE9D9;
-    padding: 45px;
+    padding: 25px;
     display: flex;
     flex-wrap: nowrap;
     overflow-x: scroll;
 }
 .featuredIMG{
-    height: 800px;
-    border: 30px solid #FFE9D9;
+    height: 600px;
+    border: 20px solid #FFE9D9;
 }
 .profile{
     height: 650px;
@@ -120,9 +94,9 @@ body{
     transform: rotate(8deg);
   }
 
-p{
+.after-scallop p{
     font-size: 18px;
-    margin-bottom: 200px;
+    margin-bottom: 320px;
     margin-top: 0%;
 }
 .insta{

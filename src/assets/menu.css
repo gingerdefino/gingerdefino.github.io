@@ -2,9 +2,10 @@
   /* this is the height of the header bar */
   --header-height: 130px;
   /* this is the background color of the header bar and panel */
-  --menu-bg: rgba(216,57,47,1);
+  --menu-bg: rgb(255,233,217);
   --menu-highlight-hover: rgba(255, 255, 255, 0);
 }
+
 
 * {
   /* leave this on - it helps size things consistently */
@@ -161,4 +162,9 @@ main {
   .nav-items-list a {
     font-size: 1.5rem;
   }
+}
+.scallop {
+  background: #FFE9D9;
+  padding:10px;
+  color:#D8392F;
 }
