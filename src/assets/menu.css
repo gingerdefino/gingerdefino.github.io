@@ -1,6 +1,6 @@
 :root {
   /* this is the height of the header bar */
-  --header-height: 130px;
+  --header-height: 55px;
   /* this is the background color of the header bar and panel */
   --menu-bg: rgb(255,233,217);
   --menu-highlight-hover: rgba(255, 255, 255, 0);
@@ -68,7 +68,7 @@
   /* if you want the flyout nav to have a different background color, put it here */
   background: var(--menu-bg);
   transition: all 0.3s;
-  z-index: -10;
+  z-index: 1;
 }
 
 /* this is the class that is applied when the mobile nav disappears */
@@ -122,7 +122,7 @@
 }
 /* this makes sure the header doesn't cover any page content */
 main {
-  margin-top: var(--header-height);
+  margin-top: calc( var(--header-height) + 85px);
 }
 
 /* this media query sets the point where the layout transitions from top bar to hamburger */
@@ -167,4 +167,5 @@ main {
   background: #FFE9D9;
   padding:10px;
   color:#D8392F;
+  border-bottom: 3px #ffe9d9 solid;
 }
