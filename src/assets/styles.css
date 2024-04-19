@@ -6,7 +6,7 @@ body {
     color: #FFE9D9;
     font-size: 18px;
     font-family: "Raleway", sans-serif;
-    background-color: #D8392F;
+    background-color: #c82f25;
     text-transform: uppercase;
     margin: 0%;
     display: flex;
@@ -34,7 +34,6 @@ html {
 }
 
 footer {
-    background-color: #D8392F;
     font-family: "Raleway", sans-serif;
     color: #FFE9D9;
     margin: 0%;
@@ -74,7 +73,7 @@ header a {
 }
 
 .after-scallop {
-    background: #D8392F;
+    background: #c82f25;
     margin-bottom: 50px;
 }
 
@@ -125,6 +124,7 @@ h2 {
     font-size: 55px;
     text-transform: none;
     letter-spacing: -2px;
+    margin: 0;
 }
 
 a {
@@ -134,6 +134,12 @@ a {
 
 p {
     width: 100%;
+  
+}
+
+ul {
+    text-align: left;
+    min-width: 340px;
 }
 
 /* home page */
@@ -164,7 +170,7 @@ p {
 .about #main-content div {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .profile {
@@ -181,18 +187,25 @@ p {
     transform: rotate(8deg);
 }
 
+.about main {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+}
+
 .about-me-section {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: left;
-    padding: 30px;
     width: 90%;
     max-width: 500px;
 }
 
 .about p {
     text-align: left;
+    max-width: 500px;
+    word-wrap: break-word;
 }
 
 
@@ -201,6 +214,11 @@ p {
 .about h1 {
     margin-bottom: 0px;
     margin-top: 0;
+    text-align: center;
+}
+
+.about h2 {
+    text-align: center;
 }
 
 
@@ -270,19 +288,22 @@ img.ff-banner-image.ff-image {
 
     h1 {
         font-size: 155px;
-        margin-top: 300px;
+        margin-top: 200px;
     }
 
     h2 {
         font-size: 75px;
     }
 
-    .after-scallop p {
-        margin-bottom: 30vh;
-    }
-
     main {
         max-width: 1400px;
+    }
+
+}
+
+@media (min-width:500px) {
+    .about h2, .about h1 {
+        text-align: left;
     }
 
 }
