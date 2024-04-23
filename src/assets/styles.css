@@ -274,10 +274,10 @@ img.ff-banner-image.ff-image {
 
 /* work page */
 .work main img {
-    width: 355px;
-    height: 465px;
+    width: 390px;
+    height: 460px;
     object-fit: cover;
-    object-position: 25% 25%;
+    object-position: 53% 25%;
 }
 
 h3{
@@ -291,11 +291,12 @@ h3{
 
 
 .card{
-    background-color: #FFE9D9;
+    background-color: #fff2e8;
     width: 390px;
-    height: 640px;
-    border: #FFE9D9;
+    height: 650px;
+    border: #fff2e8;
     padding: 20px;
+    margin-top: 20px;
 }
 
 .card-text{
@@ -319,7 +320,7 @@ h3{
 
     h1 {
         font-size: 155px;
-        margin-top: 100px;
+        margin-top: 50px;
     }
 
     h2 {
