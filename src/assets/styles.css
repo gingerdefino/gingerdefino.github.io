@@ -274,8 +274,39 @@ img.ff-banner-image.ff-image {
 
 /* work page */
 .work main img {
-    width: 375px;
-    height: auto;
+    width: 355px;
+    height: 465px;
+    object-fit: cover;
+    object-position: 25% 25%;
+}
+
+h3{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    text-transform: none;
+    letter-spacing: -2px;
+    font-family: "Elsie", serif;
+}
+
+
+.card{
+    background-color: #FFE9D9;
+    width: 390px;
+    height: 640px;
+    border: #FFE9D9;
+    padding: 20px;
+}
+
+.card-text{
+    color: #c82f25;
+    text-align: left;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
 
@@ -288,7 +319,7 @@ img.ff-banner-image.ff-image {
 
     h1 {
         font-size: 155px;
-        margin-top: 200px;
+        margin-top: 100px;
     }
 
     h2 {
