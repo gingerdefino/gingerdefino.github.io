@@ -1,5 +1,6 @@
 const { EleventyHtmlBasePlugin } = require("@11ty/eleventy");
-const urlBase = process.env.BASE_URL || "";
+// const urlBase = process.env.BASE_URL || "";
+const urlBase =  "";
 
 module.exports = function (eleventyConfig) {
   console.log(process.env.NODE_ENV);
