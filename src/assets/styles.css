@@ -85,10 +85,22 @@ header a {
 } */
 
 header a:visited,
-header a:active {
+header a:active, .header-logo-link {
     text-decoration: none;
 }
 
+header a:hover,
+header a:focus {
+    text-decoration: underline;
+}
+
+.btn-toggle-menu svg {
+    fill: #d83a2f;
+}
+
+.btn-toggle-menu span {
+    color: #d83a2f;
+}
 
 /* footer */
 
@@ -129,7 +141,6 @@ h2 {
 
 a {
     color: #FFE9D9;
-    text-decoration: none;
 }
 
 p {
@@ -207,7 +218,7 @@ ul {
     max-width: 500px;
 }
 
-.about p {
+.about main p {
     text-align: left;
     max-width: 500px;
     word-wrap: break-word;
