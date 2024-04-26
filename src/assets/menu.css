@@ -50,6 +50,9 @@
 .header-logo-link {
   display: flex;
   align-items: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 1rem;
 }
 .header-logo-link:hover {
   background-color: var(--menu-highlight-hover);
@@ -165,7 +168,6 @@ main {
 }
 .scallop {
   background: #FFE9D9;
-  padding:10px;
   color:#D8392F;
   border-bottom: 3px #ffe9d9 solid;
 }
