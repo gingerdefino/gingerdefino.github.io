@@ -77,13 +77,6 @@ header a {
     margin-bottom: 50px;
 }
 
-/*
-.after-scallop p {
-    font-size: 18px;
-    margin-top: 0%;
-    width: 100%;
-} */
-
 header a:visited,
 header a:active, .header-logo-link {
     text-decoration: none;
@@ -187,6 +180,7 @@ ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .profile {
@@ -230,11 +224,29 @@ ul {
 .about h1 {
     margin-bottom: 0px;
     margin-top: 0;
-    text-align: center;
+    font-size: 80px;
 }
 
 .about h2 {
-    text-align: center;
+    text-align: left;
+    font-size: 40px;
+}
+
+.float{
+    border-top: .5rem solid #FFE9D9;
+    border-bottom: .5rem solid #FFE9D9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.pastimes{
+    background-color: #e07465cf;
+    padding: 80px
+}
+
+.tech{
+    background-color: #c82f25;
+    padding: 80px;
 }
 
 
@@ -350,6 +362,13 @@ h3{
     .work main img {
         width: 390px;
         height: 460px;
+    }
+    .about h1 {
+        font-size: 120px;
+    }
+    
+    .about h2 {
+        font-size: 55px;
     }
 
 }
